@@ -1,0 +1,221 @@
+.main-wrap {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+::ng-deep.ng-dropdown-panel .scroll-host {
+    height: 70px;
+}
+
+@media (max-width: 640px) {
+    .main-wrap {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        /* text-align: center */
+    }
+}
+
+svg {
+    fill: #a7a7a7;
+}
+
+.active>a>div>span>svg {
+    fill: white !important;
+}
+
+textarea {
+    padding-top: 10px !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.help-block {
+    color: red;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+.text-danger {
+    font-size: x-small;
+}
+
+.theme-clr {
+    color: #ff5757 !important;
+}
+
+.theme-btn {
+    background-color: #ff5757 !important;
+    width: 90px;
+    color: white !important;
+}
+
+.modalTitle {
+    font-size: 30px;
+    text-align: center;
+}
+
+button:focus {
+    outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.pageTitle {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.pageTitleSecondary {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.pageTitle-img {
+    height: 22px;
+}
+
+.center {
+    text-align: center!important;
+}
+
+.right {
+    text-align: right;
+}
+
+.pageTitle img {
+    vertical-align: inherit;
+}
+
+hr.new3 {
+    border-top: 2px solid #e9ecef;
+}
+
+.lineSpace {
+    margin-top: -10px;
+}
+
+.text-Responsive {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/*------modal bar---------------------*/
+
+.title-modal {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+
+/*------fixed bar---------------------*/
+
+.title-bg {
+    background-color: #EBEBEB;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.title {
+    padding: 34px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+
+/*------scroll bar---------------------*/
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+}
+
+ ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #a4a8ac;
+    border: 0px none #FFFFFF;
+    border-radius: 50px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #CBCCCE;
+}
+
+ ::-webkit-scrollbar-thumb:active {
+    background: #CBCCCE;
+}
+
+ ::-webkit-scrollbar-track {
+    background: transparent;
+    border: 0px none #FFFFFF;
+    border-radius: 50px;
+}
+
+ ::-webkit-scrollbar-track:hover {
+    background: transparent;
+}
+
+ ::-webkit-scrollbar-track:active {
+    background: transparent;
+}
+
+ ::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+
+/* *************************** FONTWEIGHTS OF OUR FONT FAMILY******************* */
+
+.thin {
+    font-weight: 100;
+}
+
+.extralight {
+    font-weight: 200;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.extrabold {
+    font-weight: 800;
+}
+
+.black {
+    font-weight: 900;
+}
+
+
+/* *************************** FONTSIZE OF OUR FONT FAMILY******************* */
+
+.x-large {
+    font-size: x-large;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="10ee2480-f5c1-40e6-a6a2-3e3f4d6f6ffe" name="jobreels">
+        <fileTransfer accessType="SFTP" host="3.13.173.122" port="22" sshConfigId="3b0755c6-7b02-44cf-8180-7e2788767e40" sshConfig="ubuntu@3.13.173.122:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
